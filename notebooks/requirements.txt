@@ -1,0 +1,37 @@
+# Python dependencies for example notebooks under notebooks/.
+# Derived from imports / backends used by those notebooks.
+# Installed by scripts/build-install-start-jupyterlab.sh
+#
+# Notebook → packages:
+#   basics.ipynb            → ipywidgets, pandas
+#   bqplot.ipynb            → bqplot, numpy
+#   dashboard.ipynb         → bqplot, ipywidgets, numpy
+#   gridspecLayout.ipynb    → ipywidgets
+#   interactive.ipynb       → ipywidgets
+#   multiple_widgets.ipynb  → ipywidgets
+#   reveal.ipynb            → ipywidgets  (reveal template ships with Voilà)
+#   ipympl.ipynb            → ipympl, matplotlib, numpy
+#   ipyvolume.ipynb         → ipyvolume
+#   bokeh.ipynb             → bokeh, bokeh_sampledata, PyYAML
+#   yaml.ipynb              → PyYAML
+#   mimerenderers.ipynb     → matplotlib, numpy, vega_datasets, jupyterlab-fasta
+#   query-strings.ipynb     → (stdlib only)
+#   xleaflet.ipynb          → NOT covered here (needs xeus-cling / xleaflet C++ stack)
+#
+# Also recommended by docs / binder for widget examples:
+#   scipy
+
+ipykernel
+ipywidgets
+numpy
+pandas
+matplotlib
+ipympl
+bqplot
+ipyvolume
+scipy
+bokeh
+bokeh_sampledata
+PyYAML
+vega_datasets
+jupyterlab-fasta

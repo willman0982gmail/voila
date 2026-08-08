@@ -23,3 +23,6 @@ pip install voila
 
 Once Voilà is installed, it can be used either as a Command-Line Interface,
 or as a Jupyter Server extension. See {ref}`using` for information on how to use Voilà.
+
+For JupyterLab version support (including 4.4.x, 4.5.x, and 4.6.x), see
+{ref}`jupyterlab-compatibility`.

@@ -39,6 +39,7 @@ install
 using
 customize
 deploy
+jupyterlab-compatibility
 changelog
 contribute
 ```
